@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from matplotlib import pyplot as plt
 %matplotlib inline
 
-data=pd.read_csv("mnist_test.csv")
+data=pd.read_csv("https://github.com/GudaDharani/My-capatain/blob/master/mnist_test.csv")
 print(data.head())
 a=data.iloc[3,1:].values
 a.reshape(28,28).reshape('uint8')
