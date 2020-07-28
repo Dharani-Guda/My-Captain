@@ -9,4 +9,4 @@ for i in range(2,n):
 	l.append(f2)
 	f0=f1
 	f1=f2
-print(*l,sep=",")
+print(*l,sep=" ,")
